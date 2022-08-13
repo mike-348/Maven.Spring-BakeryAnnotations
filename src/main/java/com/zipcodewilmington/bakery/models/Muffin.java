@@ -5,7 +5,7 @@ import java.util.Objects;
 
 @Entity
 public class Muffin {
-
+    @Id
     private Long id;
 
     private String flavor;
